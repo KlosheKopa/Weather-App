@@ -64,7 +64,7 @@ function listCityHistory(city) {
     }
 
     if(!searchHistory){
-        let searchHistory = [];
+        searchHistory = [];
     }
 
     if (!checkHistory(searchHistory, city)) {
