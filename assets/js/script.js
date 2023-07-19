@@ -63,6 +63,9 @@ function listCityHistory(city) {
         return arr.some((arrVal) => val === arrVal);
     }
 
+    if(!searchHistory){
+        let searchHistory = [];
+    }
 
     if (!checkHistory(searchHistory, city)) {
         searchHistory.push(city);
